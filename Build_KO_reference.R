@@ -119,4 +119,4 @@ for(i in 1:length(KNrs)){
   }
 }
 
-write.table(x = KOs.adj, file = "KO_refTable.txt", sep = "\t", quote = F, row.names = F)
+write.csv(x = KOs.adj, file = "KO_refTable.csv", row.names = F)
